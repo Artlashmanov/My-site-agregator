@@ -1,0 +1,170 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #e2e3e4;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(150, 57, 57);
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+header .presentation {
+
+  margin: 1px 0;
+  background: url('src/components/images/bg.jpg') no-repeat;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  position: relative;
+}
+
+.header__nav-item {
+
+  color: antiquewhite;
+}
+
+
+header .presentation::after {
+  content: 'Лучший сайт агрегатор в России';
+  position: absolute;
+  font-style: italic;
+  top: 100px;
+  left: 50px;
+  width: 300px;
+  font-size: 40px;
+  font-weight: 600;
+  color: rgba(196, 216, 241, 0.997);
+
+}
+
+header .presentation::before {
+  content: 'Только проверенные сервисы';
+  position: absolute;
+  font-style: oblique;
+  top: 300px;
+  left: 50px;
+  width: 200px;
+  font-size: 20px;
+  font-weight: 500;
+  color: rgba(243, 247, 251, 0.997);
+
+}
+
+.wrapper {
+
+  width: 1280px;
+  margin: 50px auto;
+  background-color: rgb(226, 155, 62);
+}
+
+
+input {
+
+  margin-bottom: 15px;
+  padding: 13px 16px;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 5px;
+  width: 66%;
+  font-size: 16px;
+  outline: none;
+  opacity: 0.8;
+}
+
+button {
+
+  font-size: 16px;
+  margin: 15px;
+  border: 10px;
+  border-radius: 10px;
+  background-color: #238b65;
+  text-align: center;
+  color: rgb(240, 250, 240);
+  padding: 12px;
+  width: 100%;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.favoritechange {
+
+  margin: 1px 0;
+  background: url('src/components/images/bg3.jpg') no-repeat;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+.buttonformoffer {
+
+  font-size: 16px;
+  margin: 15px;
+  border: 20px;
+  border-color: rgb(224, 224, 7);
+  border-radius: 20px;
+  background-color: #238b65;
+  text-align: center;
+  color: rgb(240, 250, 240);
+  padding: 12px;
+  width: 65%;
+  font-weight: bold;
+  cursor: pointer;
+  display: inline-block;
+}
+
+
+.page--gray, .page__main--favorites {
+
+  background-color: #737476;
+
+}
+
+
+ul, span, .header__nav__link, .header__nav-item {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+
+}
+
+ul, span, .header__nav__link, .header__nav__Main {
+
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  color: aliceblue;
+
+}
+
