@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(186, 109, 15);
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
